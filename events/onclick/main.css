@@ -1,0 +1,32 @@
+.box-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-item {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  font-family: sans-serif;
+}
+
+.box-item span {
+  color: #fff;
+  font-size: 64px;
+}
+
+.box-item:first-child {
+  cursor: pointer;
+  user-select: none;
+}
+
+.box-item:nth-child(odd) {
+  background-color: mediumaquamarine;
+}
+
+.box-item:nth-child(even) {
+  background-color: tomato;
+}
