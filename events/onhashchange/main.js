@@ -2,7 +2,6 @@
   'use strict';
 
   var item = doc.querySelectorAll('.item');
-  console.log(item);
 
   win.addEventListener('hashchange', () => {
     item.forEach((item) => {
