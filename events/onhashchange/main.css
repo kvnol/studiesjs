@@ -1,0 +1,8 @@
+.item {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 15px;
+  border: 1px solid #d5d5d5;
+  background-color: #e5e5e5;
+}
