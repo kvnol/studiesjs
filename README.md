@@ -8,6 +8,10 @@ Repository to my JavaScript studies
 
 ## Studies
 
+## Features
+
+- [Lend Values](/features/lendValues)
+
 ### Events
 
 - [onClick](/events/onclick)
